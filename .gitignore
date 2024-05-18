@@ -1,2 +1,2 @@
 #Ignorar o .env verdadeiro
-.env
+src\model\.env
