@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form input, form select {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+}
+
+form button {
+    padding: 5px;
+    margin: 5px;
+    width: 90px;
+}
+
+form {
+    margin-bottom: 5px;
+}

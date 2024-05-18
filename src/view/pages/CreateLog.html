@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Log</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Fomulario de log</h1>
+        <form action="../../controller/scripts/CreateLog.php" method="post">
+            <div>
+                <input type="text" name="message" id="messageId" placeholder="Short Log Message">
+            </div>
+            <div>
+                <select name="Method" id="MethodId">
+                    <option value="1">File</option>
+                    <option value="2">DataBase</option>
+                </select>
+            </div>
+            <div>
+                <select name="LogType" id="LogTypeId">
+                    <option value="1">Login</option>
+                    <option value="2">SignUp</option>
+                    <option value="3">Logout</option>
+                    <option value="4">Update</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <a href="../../controller/scripts/DeleteLogs.php">Apagar Logs</a>
+    </section>
+</body>
+</html>
