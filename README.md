@@ -1,1 +1,4 @@
-<h1>Ola mundo</h1>
+<h1>App de log</h1>
+<p>Este app foi feito numa tarde de sabado, me levou algumas horas do meu dia pra ser feito mais finalmente esta pronto, nao é nada de mais, so um app feito para aprimorar minhas habilidades em php, especialmente se tratando de poo</p>
+<p>Ele foi feito utilizando o design pattern MVC, caso você queira testar o banco de dados utilizado esta na pasta config, assim como o .env utilizado, <mark><strong>o .env deve ser colocado dentro da pasta model</strong></mark></p>
+<p>Quem quiser chamar para estudar, fazer algum projeto juntos ou jogar alguma coisa, <mark>so mandar um fork ae</mar></p>
